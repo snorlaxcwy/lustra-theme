@@ -16,9 +16,9 @@
           "type": "text",
           "settings": {
             "text": "<p>{{ closest.collection.title }}</p>",
-            "width": "100%",
+            "width": "fit-content",
             "max_width": "normal",
-            "alignment": "center",
+            "alignment": "left",
             "type_preset": "h2",
             "font": "var(--font-primary--family)",
             "font_size": "",
@@ -26,7 +26,7 @@
             "letter_spacing": "normal",
             "case": "none",
             "wrap": "pretty",
-            "color": "",
+            "color": "var(--color-foreground-heading)",
             "background": false,
             "background_color": "#00000026",
             "corner_radius": 0,
@@ -40,13 +40,12 @@
         "divider_agfR7J": {
           "type": "_divider",
           "name": "Divider",
-          "disabled": true,
           "settings": {
-            "thickness": 1,
-            "corner_radius": "square",
+            "thickness": 1.5,
+            "corner_radius": "rounded",
             "width_percent": 100,
             "padding-block-start": 0,
-            "padding-block-end": 11
+            "padding-block-end": 68
           },
           "blocks": {}
         }
@@ -88,6 +87,7 @@
       "blocks": {
         "filters": {
           "type": "filters",
+          "disabled": true,
           "static": true,
           "settings": {
             "enable_filtering": true,
@@ -95,7 +95,7 @@
             "filter_width": "centered",
             "text_label_case": "uppercase",
             "show_swatch_label": true,
-            "show_filter_label": false,
+            "show_filter_label": true,
             "enable_sorting": true,
             "enable_grid_density": true,
             "inherit_color_scheme": true,
@@ -370,7 +370,8 @@
           "static": true,
           "settings": {
             "media_type": "image",
-            "link": "",
+            "image": "shopify://shop_images/woman-crouches-to-arrange-flowers-in-a-vase.jpg",
+            "link": "shopify://products/floral-upgrade",
             "video_loop": true,
             "video_autoplay": false,
             "image_position": "cover",
@@ -389,7 +390,7 @@
               "name": "t:names.title",
               "static": true,
               "settings": {
-                "product": "{{ closest.product }}",
+                "product": "floral-upgrade",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -416,7 +417,7 @@
               "name": "t:names.price",
               "static": true,
               "settings": {
-                "product": "{{ closest.product }}",
+                "product": "floral-upgrade",
                 "show_sale_price_first": true,
                 "type_preset": ""
               },
@@ -427,7 +428,7 @@
               "name": "t:names.image",
               "static": true,
               "settings": {
-                "product": "{{ closest.product }}",
+                "product": "floral-upgrade",
                 "image_ratio": "adapt",
                 "constrain_to_viewport": "contain"
               },
@@ -453,7 +454,6 @@
           "block_order": []
         }
       },
-      "disabled": true,
       "name": "t:names.featured_product",
       "settings": {
         "product": "",
