@@ -307,6 +307,7 @@
             },
             "forms_inline_EtDMJK": {
               "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+              "disabled": true,
               "settings": {
                 "form_id": "{{ closest.product.metafields.custom.form_id.value }}",
                 "text_color": "#58584c",
