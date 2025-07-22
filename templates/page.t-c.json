@@ -16,22 +16,69 @@
           "type": "text",
           "name": "Title",
           "settings": {
-            "text": "<h1>{{ closest.page.title }}</h1>",
+            "text": "<h1>Terms & Condition</h1>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "center",
             "type_preset": "h2",
-            "width": "100%"
-          }
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_AMdLfE": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Welcome to Lustra Homecare. We provide boutique cleaning, light styling, floral, and home organisation services with care and intention. Please read the following Terms & Conditions carefully before booking your service.</p><p><strong>1. Bookings & Consultations</strong></p><ul><li>Bookings are confirmed upon written agreement and scheduling of service time and date.</li><li>Prices listed are <strong>starting from</strong> and may vary based on the size and condition of the space.</li><li>All first-time services begin with a complimentary video consultation, allowing us to walk through your space together and tailor your experience.<br/><br/>Alternatively, you may share photographs of your home via email at least 48 hours before your scheduled appointment. If we’re unable to assess your space in advance, and the work required exceeds what’s included in your selected service, additional charges may apply.</li></ul><p><strong>2. Cancellations & Rescheduling</strong></p><ul><li>You may cancel or reschedule free of charge up to <strong>48 hours</strong> before your appointment.</li><li>Cancellations made within 24–48 hours will incur a <strong>£50 late cancellation fee</strong>.</li><li>Same-day cancellations or no-shows will be charged <strong>100% of the service fee</strong>.</li></ul><p><strong>3. What We Provide</strong></p><ul><li>Lustra supplies eco-conscious cleaning products, signature linen mists, scent accents, and light styling materials unless otherwise agreed.</li><li>Clients must provide access to the property and, where relevant, their own items (e.g., fresh linens, personal décor, or vases).</li></ul><p><strong>4. Your Responsibilities</strong></p><ul><li>Please ensure areas to be cleaned or styled are accessible.</li><li>Valuable or fragile items should be safely stored away before your appointment.</li><li>For donation handling, you must pre-approve items for removal.</li></ul><p><strong>5. Service Limitations</strong></p><ul><li>Lustra does not provide deep carpet cleaning, waste removal, or tradesman-level repairs.</li><li>Garden trim services do not include landscaping or structural work.</li><li>Some services may not be available in all areas depending on access and safety.</li></ul><p><strong>6. Payments</strong></p><ul><li>Payment is due upon booking of service, unless agreed otherwise.</li><li>Accepted methods: bank transfer, card payment, or invoice.</li><li>Late payments may incur a £25 administration fee.</li></ul><p><strong>7. Add-On Services</strong></p><ul><li>Add-ons such as floral upgrades, product sourcing, or fragrance layering are quoted individually and added to the final invoice.</li></ul><p><strong>8. Allergies & Sensitivities</strong></p><ul><li>Please inform us in advance of any allergies (e.g., pets, essential oils, floral sensitivities).</li><li>Lustra uses natural, non-toxic products, but client discretion is advised.</li></ul><p><strong>9. Confidentiality & Privacy</strong></p><ul><li>Your personal information and home details are treated with full confidentiality.</li><li>Photos are only taken or shared with explicit written consent.</li></ul><p><strong>10. Right to Refuse Service</strong></p><ul><li>Lustra reserves the right to decline or discontinue services in cases of unsafe environments, inappropriate conduct, or misuse of offerings.</li></ul><p><strong>11. Feedback & Complaints</strong></p><ul><li>We always aim to provide a calm, high-standard service that reflects Lustra’s values of care and attention. If something hasn’t met your expectations, we kindly ask that you notify us within <strong>24 hours</strong> of your appointment.</li><li>We will make every reasonable effort to address and resolve concerns promptly and fairly.</li><li>All feedback — positive or constructive — is welcomed, and helps us refine the experience we provide.</li></ul><p><br/></p><p><br/></p><p><strong>Contact:</strong><br/><br/>If you have any questions about these terms, please contact us at hello@lustra.london</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
         },
         "page-content": {
           "type": "page-content",
-          "settings": {}
+          "settings": {},
+          "blocks": {}
         }
       },
       "block_order": [
         "heading",
+        "text_AMdLfE",
         "page-content"
       ],
       "settings": {
-        "gap": 32,
+        "content_direction": "column",
+        "gap": 10,
+        "color_scheme": "",
         "padding-block-start": 40,
         "padding-block-end": 80
       }
