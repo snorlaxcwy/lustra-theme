@@ -65,14 +65,14 @@
             "accordion_row_Wk9cBz": {
               "type": "_accordion-row",
               "settings": {
-                "heading": "Heading",
-                "open_by_default": false
+                "heading": "{{ closest.page.metafields.custom.question_1 | metafield_tag }}",
+                "open_by_default": true
               },
               "blocks": {
                 "text_Kawr3e": {
                   "type": "text",
                   "settings": {
-                    "text": "{{ metaobjects.faq[\"faq-iszmofap\"].answer | metafield_tag }}",
+                    "text": "{{ closest.page.metafields.custom.answer_1 | metafield_tag }}",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
@@ -102,7 +102,7 @@
             "accordion_row_igqdPb": {
               "type": "_accordion-row",
               "settings": {
-                "heading": "Shipping",
+                "heading": "<p>Shipping</p>",
                 "open_by_default": false
               },
               "blocks": {
@@ -139,7 +139,7 @@
             "accordion_row_htMNA4": {
               "type": "_accordion-row",
               "settings": {
-                "heading": "Manufacturing",
+                "heading": "<p>Manufacturing</p>",
                 "open_by_default": false
               },
               "blocks": {
@@ -186,7 +186,6 @@
         "page-content",
         "accordion_YYFxRe"
       ],
-      "disabled": true,
       "settings": {
         "content_direction": "column",
         "gap": 32,
@@ -246,7 +245,7 @@
             "accordion_row_ybrJf6": {
               "type": "_accordion-row",
               "settings": {
-                "heading": "What is the return policy?",
+                "heading": "{{ metaobjects.faq[\"faq-iszmofap\"].question | metafield_tag }}",
                 "open_by_default": false
               },
               "blocks": {
@@ -283,7 +282,7 @@
             "accordion_row_3fWHLM": {
               "type": "_accordion-row",
               "settings": {
-                "heading": "Are any purchases final sale?",
+                "heading": "<p>Are any purchases final sale?</p>",
                 "open_by_default": false
               },
               "blocks": {
@@ -321,7 +320,7 @@
               "type": "_accordion-row",
               "name": "t:names.accordion_dash_row",
               "settings": {
-                "heading": "When will I get my order?",
+                "heading": "<p>When will I get my order?</p>",
                 "open_by_default": false
               },
               "blocks": {
@@ -360,7 +359,7 @@
               "type": "_accordion-row",
               "name": "t:names.accordion_dash_row",
               "settings": {
-                "heading": "Where are your products manufactured?",
+                "heading": "<p>Where are your products manufactured?</p>",
                 "open_by_default": false
               },
               "blocks": {
@@ -399,7 +398,7 @@
               "type": "_accordion-row",
               "name": "t:names.accordion_dash_row",
               "settings": {
-                "heading": "How much does shipping cost?",
+                "heading": "<p>How much does shipping cost?</p>",
                 "open_by_default": false
               },
               "blocks": {
@@ -448,6 +447,7 @@
         "text_mEHQMz",
         "accordion_NbAdGG"
       ],
+      "disabled": true,
       "name": "t:names.faq_section",
       "settings": {
         "content_direction": "column",
