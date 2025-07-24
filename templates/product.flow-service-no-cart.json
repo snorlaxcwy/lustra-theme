@@ -306,8 +306,35 @@
               },
               "blocks": {}
             },
+            "text_BJBfM3": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p><em>Schedule your free initial consultation over the phone or email</em></p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
             "forms_inline_EtDMJK": {
               "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+              "disabled": true,
               "settings": {
                 "form_id": "{{ closest.product.metafields.custom.form_id.value }}",
                 "text_color": "#58584c",
@@ -373,6 +400,7 @@
             "text_beUQxt",
             "accordion_NKWPiW",
             "variant_picker_R3rGDr",
+            "text_BJBfM3",
             "forms_inline_EtDMJK",
             "buy_buttons_eYQEYi"
           ]
