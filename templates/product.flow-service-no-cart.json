@@ -352,7 +352,6 @@
             },
             "buy_buttons_eYQEYi": {
               "type": "buy-buttons",
-              "disabled": true,
               "settings": {
                 "product": "{{ closest.product }}",
                 "stacking": true,
