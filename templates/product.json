@@ -229,7 +229,7 @@
                 "accordion_row_iJM37V": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "What's Included",
+                    "heading": "<p>What's Included</p>",
                     "open_by_default": true
                   },
                   "blocks": {
@@ -259,14 +259,12 @@
                       "blocks": {}
                     }
                   },
-                  "block_order": [
-                    "text_VdG98J"
-                  ]
+                  "block_order": ["text_VdG98J"]
                 },
                 "accordion_row_Ujpg4H": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "Lustra Provides",
+                    "heading": "<p>Lustra Provides</p>",
                     "open_by_default": false
                   },
                   "blocks": {
@@ -296,14 +294,12 @@
                       "blocks": {}
                     }
                   },
-                  "block_order": [
-                    "text_APWHmi"
-                  ]
+                  "block_order": ["text_APWHmi"]
                 },
                 "accordion_row_pLFDcD": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "What You’ll Need to Provide",
+                    "heading": "<p>What You’ll Need to Provide</p>",
                     "open_by_default": false
                   },
                   "blocks": {
@@ -333,9 +329,7 @@
                       "blocks": {}
                     }
                   },
-                  "block_order": [
-                    "text_qLGEN9"
-                  ]
+                  "block_order": ["text_qLGEN9"]
                 }
               },
               "block_order": [
@@ -559,10 +553,7 @@
                       "blocks": {}
                     }
                   },
-                  "block_order": [
-                    "text_CayfE3",
-                    "price_ahRCgD"
-                  ]
+                  "block_order": ["text_CayfE3", "price_ahRCgD"]
                 },
                 "group_PihxwT": {
                   "type": "group",
@@ -618,26 +609,16 @@
                       "blocks": {}
                     }
                   },
-                  "block_order": [
-                    "swatches_EdNBpW"
-                  ]
+                  "block_order": ["swatches_EdNBpW"]
                 }
               },
-              "block_order": [
-                "group_tEHPmM",
-                "group_PihxwT"
-              ]
+              "block_order": ["group_tEHPmM", "group_PihxwT"]
             }
           },
-          "block_order": [
-            "product_card_gallery_YYPH6q",
-            "group_396y6r"
-          ]
+          "block_order": ["product_card_gallery_YYPH6q", "group_396y6r"]
         }
       },
-      "block_order": [
-        "text_GbxcYC"
-      ],
+      "block_order": ["text_GbxcYC"],
       "name": "t:names.product_recommendations",
       "settings": {
         "product": "{{ closest.product }}",
@@ -727,9 +708,7 @@
               "blocks": {}
             }
           },
-          "block_order": [
-            "text_t4PFzJ"
-          ]
+          "block_order": ["text_t4PFzJ"]
         },
         "static-collection-card": {
           "type": "collection-card",
@@ -794,14 +773,10 @@
               "blocks": {}
             }
           },
-          "block_order": [
-            "collection_title_hbUJEa"
-          ]
+          "block_order": ["collection_title_hbUJEa"]
         }
       },
-      "block_order": [
-        "group_7YQYhJ"
-      ],
+      "block_order": ["group_7YQYhJ"],
       "name": "t:names.collections_bento",
       "settings": {
         "collection_list": [
@@ -828,9 +803,5 @@
       }
     }
   },
-  "order": [
-    "main",
-    "product_recommendations_qnzPkn",
-    "collection_list_wLm6EW"
-  ]
+  "order": ["main", "product_recommendations_qnzPkn", "collection_list_wLm6EW"]
 }

@@ -218,7 +218,7 @@
                 "accordion_row_NdBezV": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "Ingredients",
+                    "heading": "<p>Ingredients</p>",
                     "open_by_default": true
                   },
                   "blocks": {
@@ -253,7 +253,7 @@
                 "accordion_row_iJM37V": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "How to use",
+                    "heading": "<p>How to use</p>",
                     "open_by_default": false
                   },
                   "blocks": {
@@ -288,7 +288,7 @@
                 "accordion_row_pLFDcD": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "Shipping",
+                    "heading": "<p>Shipping</p>",
                     "open_by_default": false
                   },
                   "blocks": {
