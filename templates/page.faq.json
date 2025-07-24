@@ -67,7 +67,7 @@
               "name": "Accordion row 1",
               "settings": {
                 "heading": "{{ closest.page.metafields.custom.question_1 | metafield_tag }}",
-                "open_by_default": true
+                "open_by_default": false
               },
               "blocks": {
                 "text_Kawr3e": {
@@ -181,7 +181,7 @@
               "name": "Accordion row 4",
               "settings": {
                 "heading": "{{ closest.page.metafields.custom.question_4 | metafield_tag }}",
-                "open_by_default": true
+                "open_by_default": false
               },
               "blocks": {
                 "text_AcaPwj": {
@@ -219,7 +219,7 @@
               "name": "Accordion row 5",
               "settings": {
                 "heading": "{{ closest.page.metafields.custom.question_5 | metafield_tag }}",
-                "open_by_default": true
+                "open_by_default": false
               },
               "blocks": {
                 "text_4GYAkG": {
@@ -257,7 +257,7 @@
               "name": "Accordion row 6",
               "settings": {
                 "heading": "{{ closest.page.metafields.custom.question_6 | metafield_tag }}",
-                "open_by_default": true
+                "open_by_default": false
               },
               "blocks": {
                 "text_qRhe8X": {
@@ -295,7 +295,7 @@
               "name": "Accordion row 7",
               "settings": {
                 "heading": "{{ closest.page.metafields.custom.question_7 | metafield_tag }}",
-                "open_by_default": true
+                "open_by_default": false
               },
               "blocks": {
                 "text_cEEYrG": {
@@ -333,7 +333,7 @@
               "name": "Accordion row 8",
               "settings": {
                 "heading": "{{ closest.page.metafields.custom.question_8 | metafield_tag }}",
-                "open_by_default": true
+                "open_by_default": false
               },
               "blocks": {
                 "text_eChyKW": {
@@ -371,7 +371,7 @@
               "name": "Accordion row 9",
               "settings": {
                 "heading": "{{ closest.page.metafields.custom.question_9 | metafield_tag }}",
-                "open_by_default": true
+                "open_by_default": false
               },
               "blocks": {
                 "text_JkMnNJ": {
@@ -409,7 +409,7 @@
               "name": "Accordion row 10",
               "settings": {
                 "heading": "{{ closest.page.metafields.custom.question_10 | metafield_tag }}",
-                "open_by_default": true
+                "open_by_default": false
               },
               "blocks": {
                 "text_jWN6EQ": {
@@ -447,7 +447,7 @@
               "name": "Accordion row 11",
               "settings": {
                 "heading": "{{ closest.page.metafields.custom.question_11 | metafield_tag }}",
-                "open_by_default": true
+                "open_by_default": false
               },
               "blocks": {
                 "text_kgffgy": {
@@ -485,7 +485,7 @@
               "name": "Accordion row 12",
               "settings": {
                 "heading": "{{ closest.page.metafields.custom.question_12 | metafield_tag }}",
-                "open_by_default": true
+                "open_by_default": false
               },
               "blocks": {
                 "text_34ByJP": {
@@ -523,7 +523,7 @@
               "name": "Accordion row 13",
               "settings": {
                 "heading": "{{ closest.page.metafields.custom.question_13 | metafield_tag }}",
-                "open_by_default": true
+                "open_by_default": false
               },
               "blocks": {
                 "text_gPkTtj": {
@@ -561,7 +561,7 @@
               "name": "Accordion row 14",
               "settings": {
                 "heading": "{{ closest.page.metafields.custom.question_14 | metafield_tag }}",
-                "open_by_default": true
+                "open_by_default": false
               },
               "blocks": {
                 "text_kjQpNn": {
