@@ -213,13 +213,403 @@
               "block_order": [
                 "text_AcaPwj"
               ]
+            },
+            "accordion_row_AxJDbg": {
+              "type": "_accordion-row",
+              "name": "Accordion row 5",
+              "settings": {
+                "heading": "{{ closest.page.metafields.custom.question_5 | metafield_tag }}",
+                "open_by_default": true
+              },
+              "blocks": {
+                "text_4GYAkG": {
+                  "type": "text",
+                  "settings": {
+                    "text": "{{ closest.page.metafields.custom.answer_5 | metafield_tag }}",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_4GYAkG"
+              ]
+            },
+            "accordion_row_qcnJeA": {
+              "type": "_accordion-row",
+              "name": "Accordion row 6",
+              "settings": {
+                "heading": "{{ closest.page.metafields.custom.question_6 | metafield_tag }}",
+                "open_by_default": true
+              },
+              "blocks": {
+                "text_qRhe8X": {
+                  "type": "text",
+                  "settings": {
+                    "text": "{{ closest.page.metafields.custom.answer_6 | metafield_tag }}",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_qRhe8X"
+              ]
+            },
+            "accordion_row_AjeQEw": {
+              "type": "_accordion-row",
+              "name": "Accordion row 7",
+              "settings": {
+                "heading": "{{ closest.page.metafields.custom.question_7 | metafield_tag }}",
+                "open_by_default": true
+              },
+              "blocks": {
+                "text_cEEYrG": {
+                  "type": "text",
+                  "settings": {
+                    "text": "{{ closest.page.metafields.custom.answer_7 | metafield_tag }}",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_cEEYrG"
+              ]
+            },
+            "accordion_row_PJ9BY4": {
+              "type": "_accordion-row",
+              "name": "Accordion row 8",
+              "settings": {
+                "heading": "{{ closest.page.metafields.custom.question_8 | metafield_tag }}",
+                "open_by_default": true
+              },
+              "blocks": {
+                "text_eChyKW": {
+                  "type": "text",
+                  "settings": {
+                    "text": "{{ closest.page.metafields.custom.answer_8 | metafield_tag }}",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_eChyKW"
+              ]
+            },
+            "accordion_row_XqHmPA": {
+              "type": "_accordion-row",
+              "name": "Accordion row 9",
+              "settings": {
+                "heading": "{{ closest.page.metafields.custom.question_9 | metafield_tag }}",
+                "open_by_default": true
+              },
+              "blocks": {
+                "text_JkMnNJ": {
+                  "type": "text",
+                  "settings": {
+                    "text": "",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_JkMnNJ"
+              ]
+            },
+            "accordion_row_FUDMpq": {
+              "type": "_accordion-row",
+              "name": "Accordion row 10",
+              "settings": {
+                "heading": "{{ closest.page.metafields.custom.question_10 | metafield_tag }}",
+                "open_by_default": true
+              },
+              "blocks": {
+                "text_jWN6EQ": {
+                  "type": "text",
+                  "settings": {
+                    "text": "{{ closest.page.metafields.custom.answer_10 | metafield_tag }}",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_jWN6EQ"
+              ]
+            },
+            "accordion_row_6FMKUe": {
+              "type": "_accordion-row",
+              "name": "Accordion row 11",
+              "settings": {
+                "heading": "{{ closest.page.metafields.custom.question_11 | metafield_tag }}",
+                "open_by_default": true
+              },
+              "blocks": {
+                "text_kgffgy": {
+                  "type": "text",
+                  "settings": {
+                    "text": "{{ closest.page.metafields.custom.answer_11 | metafield_tag }}",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_kgffgy"
+              ]
+            },
+            "accordion_row_ym7MAK": {
+              "type": "_accordion-row",
+              "name": "Accordion row 12",
+              "settings": {
+                "heading": "{{ closest.page.metafields.custom.question_12 | metafield_tag }}",
+                "open_by_default": true
+              },
+              "blocks": {
+                "text_34ByJP": {
+                  "type": "text",
+                  "settings": {
+                    "text": "{{ closest.page.metafields.custom.answer_12 | metafield_tag }}",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_34ByJP"
+              ]
+            },
+            "accordion_row_T7G84A": {
+              "type": "_accordion-row",
+              "name": "Accordion row 13",
+              "settings": {
+                "heading": "{{ closest.page.metafields.custom.question_13 | metafield_tag }}",
+                "open_by_default": true
+              },
+              "blocks": {
+                "text_gPkTtj": {
+                  "type": "text",
+                  "settings": {
+                    "text": "{{ closest.page.metafields.custom.answer_13 | metafield_tag }}",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_gPkTtj"
+              ]
+            },
+            "accordion_row_NxbA3H": {
+              "type": "_accordion-row",
+              "name": "Accordion row 14",
+              "settings": {
+                "heading": "{{ closest.page.metafields.custom.question_14 | metafield_tag }}",
+                "open_by_default": true
+              },
+              "blocks": {
+                "text_kjQpNn": {
+                  "type": "text",
+                  "settings": {
+                    "text": "{{ closest.page.metafields.custom.answer_14 | metafield_tag }}",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_kjQpNn"
+              ]
             }
           },
           "block_order": [
             "accordion_row_Wk9cBz",
             "accordion_row_igqdPb",
             "accordion_row_htMNA4",
-            "accordion_row_37djX7"
+            "accordion_row_37djX7",
+            "accordion_row_AxJDbg",
+            "accordion_row_qcnJeA",
+            "accordion_row_AjeQEw",
+            "accordion_row_PJ9BY4",
+            "accordion_row_XqHmPA",
+            "accordion_row_FUDMpq",
+            "accordion_row_6FMKUe",
+            "accordion_row_ym7MAK",
+            "accordion_row_T7G84A",
+            "accordion_row_NxbA3H"
           ]
         }
       },
