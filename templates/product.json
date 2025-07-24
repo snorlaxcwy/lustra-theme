@@ -143,6 +143,7 @@
             "divider_HrJgFt": {
               "type": "_divider",
               "name": "t:names.divider",
+              "disabled": true,
               "settings": {
                 "thickness": 1,
                 "corner_radius": "square",
@@ -151,6 +152,157 @@
                 "padding-block-end": 12
               },
               "blocks": {}
+            },
+            "spacer_PVxWm8": {
+              "type": "spacer",
+              "name": "t:names.spacer",
+              "settings": {
+                "size": "percent",
+                "percent_size": 100,
+                "pixel_size": 120,
+                "custom_mobile_size": false,
+                "size_mobile": "percent",
+                "percent_size_mobile": 100,
+                "pixel_size_mobile": 120
+              },
+              "blocks": {}
+            },
+            "accordion_NKWPiW": {
+              "type": "accordion",
+              "name": "t:names.accordion",
+              "settings": {
+                "icon": "caret",
+                "dividers": true,
+                "type_preset": "h6",
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "accordion_row_iJM37V": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "<p>What's Included</p>",
+                    "open_by_default": false
+                  },
+                  "blocks": {
+                    "text_VdG98J": {
+                      "type": "text",
+                      "settings": {
+                        "text": "{{ closest.product.metafields.custom.what_s_included | metafield_tag }}",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "custom",
+                        "font": "var(--font-secondary--family)",
+                        "font_size": "var(--font-size--body-lg)",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 12,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_VdG98J"
+                  ]
+                },
+                "accordion_row_Ujpg4H": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "<p>Lustra Provides</p>",
+                    "open_by_default": false
+                  },
+                  "blocks": {
+                    "text_APWHmi": {
+                      "type": "text",
+                      "settings": {
+                        "text": "{{ closest.product.metafields.custom.lustra_provides | metafield_tag }}",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "custom",
+                        "font": "var(--font-secondary--family)",
+                        "font_size": "var(--font-size--body-lg)",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 12,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_APWHmi"
+                  ]
+                },
+                "accordion_row_pLFDcD": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "<p>What You’ll Need to Provide</p>",
+                    "open_by_default": false
+                  },
+                  "blocks": {
+                    "text_qLGEN9": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p></p>{{ closest.product.metafields.custom.what_you_ll_need_to_provide | metafield_tag }}",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "custom",
+                        "font": "var(--font-secondary--family)",
+                        "font_size": "var(--font-size--body-lg)",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 12,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_qLGEN9"
+                  ]
+                }
+              },
+              "block_order": [
+                "accordion_row_iJM37V",
+                "accordion_row_Ujpg4H",
+                "accordion_row_pLFDcD"
+              ]
             },
             "variant_picker_R3rGDr": {
               "type": "variant-picker",
@@ -206,137 +358,6 @@
                 }
               },
               "block_order": []
-            },
-            "accordion_NKWPiW": {
-              "type": "accordion",
-              "name": "t:names.accordion",
-              "settings": {
-                "icon": "caret",
-                "dividers": true,
-                "type_preset": "h6",
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {
-                "accordion_row_iJM37V": {
-                  "type": "_accordion-row",
-                  "settings": {
-                    "heading": "<p>What's Included</p>",
-                    "open_by_default": true
-                  },
-                  "blocks": {
-                    "text_VdG98J": {
-                      "type": "text",
-                      "settings": {
-                        "text": "{{ closest.product.metafields.custom.what_s_included | metafield_tag }}",
-                        "width": "100%",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "custom",
-                        "font": "var(--font-secondary--family)",
-                        "font_size": "var(--font-size--body-lg)",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "color": "",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 12,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": ["text_VdG98J"]
-                },
-                "accordion_row_Ujpg4H": {
-                  "type": "_accordion-row",
-                  "settings": {
-                    "heading": "<p>Lustra Provides</p>",
-                    "open_by_default": false
-                  },
-                  "blocks": {
-                    "text_APWHmi": {
-                      "type": "text",
-                      "settings": {
-                        "text": "{{ closest.product.metafields.custom.lustra_provides | metafield_tag }}",
-                        "width": "100%",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "custom",
-                        "font": "var(--font-secondary--family)",
-                        "font_size": "var(--font-size--body-lg)",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "color": "",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 12,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": ["text_APWHmi"]
-                },
-                "accordion_row_pLFDcD": {
-                  "type": "_accordion-row",
-                  "settings": {
-                    "heading": "<p>What You’ll Need to Provide</p>",
-                    "open_by_default": false
-                  },
-                  "blocks": {
-                    "text_qLGEN9": {
-                      "type": "text",
-                      "settings": {
-                        "text": "<p></p>{{ closest.product.metafields.custom.what_you_ll_need_to_provide | metafield_tag }}",
-                        "width": "100%",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "custom",
-                        "font": "var(--font-secondary--family)",
-                        "font_size": "var(--font-size--body-lg)",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "color": "",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 12,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": ["text_qLGEN9"]
-                }
-              },
-              "block_order": [
-                "accordion_row_iJM37V",
-                "accordion_row_Ujpg4H",
-                "accordion_row_pLFDcD"
-              ]
             }
           },
           "block_order": [
@@ -344,9 +365,10 @@
             "price_a7krng",
             "text_beUQxt",
             "divider_HrJgFt",
+            "spacer_PVxWm8",
+            "accordion_NKWPiW",
             "variant_picker_R3rGDr",
-            "buy_buttons_eYQEYi",
-            "accordion_NKWPiW"
+            "buy_buttons_eYQEYi"
           ]
         }
       },
@@ -553,7 +575,10 @@
                       "blocks": {}
                     }
                   },
-                  "block_order": ["text_CayfE3", "price_ahRCgD"]
+                  "block_order": [
+                    "text_CayfE3",
+                    "price_ahRCgD"
+                  ]
                 },
                 "group_PihxwT": {
                   "type": "group",
@@ -609,16 +634,26 @@
                       "blocks": {}
                     }
                   },
-                  "block_order": ["swatches_EdNBpW"]
+                  "block_order": [
+                    "swatches_EdNBpW"
+                  ]
                 }
               },
-              "block_order": ["group_tEHPmM", "group_PihxwT"]
+              "block_order": [
+                "group_tEHPmM",
+                "group_PihxwT"
+              ]
             }
           },
-          "block_order": ["product_card_gallery_YYPH6q", "group_396y6r"]
+          "block_order": [
+            "product_card_gallery_YYPH6q",
+            "group_396y6r"
+          ]
         }
       },
-      "block_order": ["text_GbxcYC"],
+      "block_order": [
+        "text_GbxcYC"
+      ],
       "name": "t:names.product_recommendations",
       "settings": {
         "product": "{{ closest.product }}",
@@ -708,7 +743,9 @@
               "blocks": {}
             }
           },
-          "block_order": ["text_t4PFzJ"]
+          "block_order": [
+            "text_t4PFzJ"
+          ]
         },
         "static-collection-card": {
           "type": "collection-card",
@@ -773,10 +810,14 @@
               "blocks": {}
             }
           },
-          "block_order": ["collection_title_hbUJEa"]
+          "block_order": [
+            "collection_title_hbUJEa"
+          ]
         }
       },
-      "block_order": ["group_7YQYhJ"],
+      "block_order": [
+        "group_7YQYhJ"
+      ],
       "name": "t:names.collections_bento",
       "settings": {
         "collection_list": [
@@ -803,5 +844,9 @@
       }
     }
   },
-  "order": ["main", "product_recommendations_qnzPkn", "collection_list_wLm6EW"]
+  "order": [
+    "main",
+    "product_recommendations_qnzPkn",
+    "collection_list_wLm6EW"
+  ]
 }
