@@ -310,7 +310,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p><em>Schedule your free initial consultation over the phone or email</em></p>",
+                "text": "<p><em>Schedule your free initial consultation now.</em></p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
