@@ -120,7 +120,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea porque se le agregó humor, o palabras aleatorias que no parecen ni un poco creíbles. Si vas a utilizar un pasaje de Lorem Ipsum, necesitás estar seguro de que no hay nada avergonzante escondido en el medio del texto.<p>",
+                "text": "{{ closest.product.description }}",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -267,6 +267,7 @@
                 },
                 "accordion_row_iJM37V": {
                   "type": "_accordion-row",
+                  "disabled": true,
                   "settings": {
                     "heading": "<p>How to use</p>",
                     "open_by_default": false
@@ -304,6 +305,7 @@
                 },
                 "accordion_row_pLFDcD": {
                   "type": "_accordion-row",
+                  "disabled": true,
                   "settings": {
                     "heading": "<p>Shipping</p>",
                     "open_by_default": false
