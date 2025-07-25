@@ -423,7 +423,7 @@
                 "text_MPRGNr": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Everything we do starts with why</p>",
+                    "text": "{{ metaobjects.homepage[\"homepage-jakbpl75\"].icon_1_text | metafield_tag }}",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -546,7 +546,7 @@
                 "text_kG66b6": {
                   "type": "text",
                   "settings": {
-                    "text": "<h2>serve with care</h2>",
+                    "text": "{{ metaobjects.homepage[\"homepage-jakbpl75\"].icon_2_title | metafield_tag }}",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
