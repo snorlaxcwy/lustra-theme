@@ -90,7 +90,7 @@
         "text_NihkWq": {
           "type": "text",
           "settings": {
-            "text": "<p>Lustra offers home styling, <br/>floral touches, boutique cleaning, <br/>and gentle organisation services designed to bring calm, clarity, and beauty into your daily life — with thoughtfully crafted home care products coming soon.</p>",
+            "text": "{{ metaobjects.homepage[\"homepage-jakbpl75\"].about_tagline | metafield_tag }}",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "center",
@@ -101,7 +101,7 @@
             "letter_spacing": "normal",
             "case": "none",
             "wrap": "pretty",
-            "color": "var(--color-foreground-heading)",
+            "color": "var(--color-foreground)",
             "background": false,
             "background_color": "rgba(0,0,0,0)",
             "corner_radius": 50,
