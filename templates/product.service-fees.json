@@ -145,6 +145,7 @@
             "divider_HrJgFt": {
               "type": "_divider",
               "name": "t:names.divider",
+              "disabled": true,
               "settings": {
                 "thickness": 1,
                 "corner_radius": "square",
@@ -171,6 +172,7 @@
             "accordion_NKWPiW": {
               "type": "accordion",
               "name": "t:names.accordion",
+              "disabled": true,
               "settings": {
                 "icon": "caret",
                 "dividers": true,
@@ -321,7 +323,6 @@
               "blocks": {
                 "quantity": {
                   "type": "quantity",
-                  "disabled": true,
                   "static": true,
                   "settings": {
                     "product": "{{ closest.product }}"
