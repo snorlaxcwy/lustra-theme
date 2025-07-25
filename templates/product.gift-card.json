@@ -231,7 +231,7 @@
                 "accordion_row_NdBezV": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "<p>Ingredients</p>",
+                    "heading": "{{ closest.product.metafields.custom.what_s_included | metafield_tag }}",
                     "open_by_default": true
                   },
                   "blocks": {
