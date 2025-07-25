@@ -571,7 +571,7 @@
                 "text_FneGhy": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>We believe in building better</p>",
+                    "text": "{{ metaobjects.homepage[\"homepage-jakbpl75\"].icon_2_text | metafield_tag }}",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
