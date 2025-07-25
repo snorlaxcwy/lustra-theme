@@ -224,7 +224,7 @@
         "text_69C6UJ": {
           "type": "text",
           "settings": {
-            "text": "<p><em>“Soft care. Clear space. Quiet joy.”</em></p>",
+            "text": "{{ metaobjects.homepage[\"homepage-jakbpl75\"].slogan_text | metafield_tag }}",
             "width": "fit-content",
             "max_width": "none",
             "alignment": "left",
