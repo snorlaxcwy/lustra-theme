@@ -231,14 +231,14 @@
                 "accordion_row_NdBezV": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "{{ closest.product.metafields.custom.what_s_included | metafield_tag }}",
+                    "heading": "<p>What's Include</p>",
                     "open_by_default": true
                   },
                   "blocks": {
                     "text_n7A9da": {
                       "type": "text",
                       "settings": {
-                        "text": "",
+                        "text": "{{ closest.product.metafields.custom.what_s_included | metafield_tag }}",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
