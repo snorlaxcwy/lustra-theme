@@ -976,7 +976,7 @@
         "text_nFGpWL": {
           "type": "text",
           "settings": {
-            "text": "<p>\"Coming home after a Lustra service is like stepping into a boutique hotel version of my life. Everything feels calm, clean, and somehow more ‘me’. The light scent and tiny floral touches are magic.\"</p>",
+            "text": "{{ metaobjects.homepage[\"homepage-jakbpl75\"].pull_quote_testimonial | metafield_tag }}",
             "width": "100%",
             "max_width": "normal",
             "alignment": "center",
@@ -1001,7 +1001,7 @@
         "button_pbt3rR": {
           "type": "button",
           "settings": {
-            "label": "Hana B., London",
+            "label": "{{ metaobjects.homepage[\"homepage-jakbpl75\"].pull_quote_testimonial_name.value }}",
             "link": "",
             "open_in_new_tab": false,
             "style_class": "link",
