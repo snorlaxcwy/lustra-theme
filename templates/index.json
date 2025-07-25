@@ -694,7 +694,7 @@
                 "text_dmkfwA": {
                   "type": "text",
                   "settings": {
-                    "text": "<h2>eco-friendly</h2>",
+                    "text": "{{ metaobjects.homepage[\"homepage-jakbpl75\"].icon_3_title | metafield_tag }}",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -719,7 +719,7 @@
                 "text_6mXFjT": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Real people making great products</p>",
+                    "text": "{{ metaobjects.homepage[\"homepage-jakbpl75\"].icon_3_text | metafield_tag }}",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
