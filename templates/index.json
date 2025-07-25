@@ -115,7 +115,7 @@
         "button_hHDyQq": {
           "type": "button",
           "settings": {
-            "label": "Begin Your Calm",
+            "label": "{{ metaobjects.homepage[\"homepage-jakbpl75\"].about_button_text_begin_you_calm.value }}",
             "link": "shopify://collections/all",
             "open_in_new_tab": false,
             "style_class": "button",
