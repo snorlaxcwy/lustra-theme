@@ -105,14 +105,14 @@
   {%- endif -%}
 </span>
 
-{% if block.settings.show_pickup_availability %}
+{% comment %} {% if block.settings.show_pickup_availability %}
   <script
     src="{{ 'local-pickup.js' | asset_url }}"
     type="module"
   ></script>
 
   {%- assign pick_up_availabilities = block.settings.product.selected_or_first_available_variant.store_availabilities
-    | where: 'pick_up_enabled', true
+    | where: 'pick_up_enabled', false
   -%}
 
   <local-pickup
@@ -207,7 +207,7 @@
       </dialog-component>
     {% endif %}
   </local-pickup>
-{% endif %}
+{% endif %} {% endcomment %}
 
 {% stylesheet %}
   .buy-buttons-block {
