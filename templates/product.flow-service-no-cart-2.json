@@ -309,6 +309,7 @@
             "text_BJBfM3": {
               "type": "text",
               "name": "t:names.text",
+              "disabled": true,
               "settings": {
                 "text": "<p><em>Schedule your free initial consultation now.</em></p>",
                 "width": "100%",
