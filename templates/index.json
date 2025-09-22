@@ -204,8 +204,8 @@
       "name": "t:names.collection_links_spotlight",
       "settings": {
         "collection_list": [
-          "lustra-flow-services",
           "lustra-home-care",
+          "lustra-flow-services",
           "lustra-styling-rituals",
           "the-lustra-add-on-services"
         ],
