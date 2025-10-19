@@ -820,7 +820,7 @@
               "type": "text",
               "name": "t:names.caption",
               "settings": {
-                "text": "<p>Our journey begins with...</p>",
+                "text": "<p>{{ metaobjects.homepage[\"homepage-jakbpl75\"].journal_small_tagline_top.value }}</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -940,7 +940,7 @@
             "button_PkAbD7": {
               "type": "button",
               "settings": {
-                "label": "Journal",
+                "label": "{{ metaobjects.homepage[\"homepage-jakbpl75\"].journal_button_text.value }}",
                 "link": "shopify://blogs/journal",
                 "open_in_new_tab": false,
                 "style_class": "button-secondary",
